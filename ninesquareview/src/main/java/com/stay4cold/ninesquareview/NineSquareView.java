@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.os.Build;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -103,8 +102,6 @@ public class NineSquareView extends ViewGroup {
 
             mSquareWidth = (int) ((float) imgWidth / inSampleSize);
             mSquareHeight = (int) ((float) imgHeight / inSampleSize);
-
-            Log.e("ministorm", "sample width = " + mSquareWidth + " height = " + mSquareHeight);
         }
 
         totalWidth = mColums * mSquareWidth + (mColums - 1) * mGap + getPaddingLeft() + getPaddingRight();
