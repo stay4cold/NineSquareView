@@ -155,7 +155,6 @@ public class NineSquareView extends ViewGroup {
 
         if (count < getChildCount()) {
             for (int i = count; i < getChildCount(); i++) {
-                Log.e("ministorm", "shdioahdioh = " + i + " count =  " + getChildCount());
                 getChildAt(i).setVisibility(GONE);
             }
         }
