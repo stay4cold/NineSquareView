@@ -23,6 +23,16 @@
 2. setViewCreator 设置自定义的view生成器
 3. setViewInfos   设置数据源(注意接收格式)
 
-## 关于我
+## Download
+
+Add the dependency
+
+    dependencies {
+            compile 'com.github.stay4cold:ninesquareview:1.0.1'
+    }
+
+## About Me
 
 天津Android开发者
+
+Email: <wangchenghao123@126.com>
