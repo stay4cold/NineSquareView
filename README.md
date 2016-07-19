@@ -1,5 +1,6 @@
 # NineSquareView
 实现类似朋友圈和新浪微博的九宫格视图
+![screent1](https://github.com/stay4cold/NineSquareView/blob/master/screen.gif?raw=true)
 
 ## 介绍
 
